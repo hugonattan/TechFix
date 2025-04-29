@@ -114,6 +114,11 @@ header {
      background-color: #f9f9f9;
 }
 
+.section_services h2 {
+     text-align: center;
+     margin-bottom: 30px
+}
+
 .services {
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -244,6 +249,13 @@ footer {
           text-align: center;
           background-color: #04445b;
           padding: 15px 0;
+          
      }
 
+     .infos h1,
+     .section_services h2,
+     .section_about h2,
+     .section_form h2 {
+          font-size: 23px;
+     }
 }

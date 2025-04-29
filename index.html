@@ -7,6 +7,7 @@
      <link rel="stylesheet" href="/public/css/index.css" />
      <title>TechFix Manutenções</title>
 </head>
+
 <body>
      <header>
           <div class="logo">TechFix</div>
@@ -43,7 +44,7 @@
           </section>
 
           <section id="servicos" class="section_services">
-               <h2 style="text-align:center; margin-bottom:30px;">Nossos Serviços</h2>
+               <h2>Nossos Serviços</h2>
                <div class="services">
                     <div class="card">
                          <h3>Montagem Personalizada</h3>
@@ -75,8 +76,8 @@
 
           <section id="contato" class="section_form">
                <h2>Fale Conosco</h2>
-               <form id="contact-form">
-                    <input type="text" placeholder="Seu nome" required />
+               <form id="contact-form" onsubmit="enviarWhatsApp(event)">
+                    <input type="text" id="nome" placeholder="Seu nome" required />
                     <input type="email" id="email" placeholder="Seu e-mail" required />
                     <input type="tel" id="tel" placeholder="Seu telefone" required />
                     <select name="select" id="select">
@@ -85,8 +86,8 @@
                          <option value="third">Instalação de Peças</option>
                          <option value="forty">Diagnóstico Técnico</option>
                     </select>
-                    <textarea rows="4" placeholder="Descreva o problema ou solicitação"></textarea>
-                    <button class="submit">Enviar Mensagem</button>
+                    <textarea id="mensagem" rows="4" placeholder="Descreva o problema ou solicitação"></textarea>
+                    <button type="submit" class="submit">Enviar Mensagem</button>
                </form>
           </section>
      </main>
@@ -95,8 +96,7 @@
           <p>&copy; 2025 TechFix Manutenções | WhatsApp: (79) 98126-4159 | CNPJ: 00.000.000/0000-00</p>
      </footer>
 
-     <script src="/public/js/script.js"></script>
-     <script src="/public/js/register.js"></script>
+     <script src="/public/js/scripts.js"></script>
 </body>
 
 </html>

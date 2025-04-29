@@ -79,3 +79,48 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
+function enviarWhatsApp(event) {
+    event.preventDefault(); // Impede o envio tradicional do formulário
+
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const telefone = document.getElementById('tel').value;
+    const servico = document.getElementById('select').value;
+    const mensagem = document.getElementById('mensagem').value;
+
+    // Mapeia os valores do select para nomes legíveis
+    const servicos = {
+        first: 'Selecione o Serviço',
+        second: 'Montagem Personalizada',
+        third: 'Instalação de Peças',
+        forty: 'Diagnóstico Técnico'
+    };
+
+    const servicoFormatado = servicos[servico] || servico;
+
+    const mensagemFinal =
+`*Fale Conosco*\n
+*Nome:* ${nome}
+*E-mail:* ${email}
+*Telefone:* ${telefone}
+*Serviço Desejado:* ${servicoFormatado}\n
+*Mensagem:* ${mensagem}`;
+
+    const numeroWhatsApp = '5579981264159'; // Substitua pelo seu número real
+
+    const link = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagemFinal)}`;
+    window.open(link, '_blank');
+}
+
+
+const toggle = document.getElementById('menu-toggle');
+const navMenu = document.getElementById('nav-menu');
+const authLinks = document.getElementById('auth-links');
+
+toggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+    authLinks.classList.toggle('show');
+});
+
+
