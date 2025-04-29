@@ -79,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
 function enviarWhatsApp(event) {
     event.preventDefault(); // Impede o envio tradicional do formulário
 
@@ -91,14 +90,18 @@ function enviarWhatsApp(event) {
 
     // Mapeia os valores do select para nomes legíveis
     const servicos = {
-        one: 'Selecione o Serviço',
         two: 'Montagem Personalizada',
         three: 'Instalação de Peças',
         for: 'Diagnóstico Técnico',
         five: 'Manutenção Preventiva'
     };
 
-    const servicoFormatado = servicos[servico] || servico;
+    if (!servicos[servico]) {
+        alert("Por favor, selecione um serviço válido.");
+        return;
+    }
+
+    const servicoFormatado = servicos[servico];
 
     const mensagemFinal =
 `*Fale Conosco*\n
@@ -113,15 +116,5 @@ function enviarWhatsApp(event) {
     const link = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagemFinal)}`;
     window.open(link, '_blank');
 }
-
-
-const toggle = document.getElementById('menu-toggle');
-const navMenu = document.getElementById('nav-menu');
-const authLinks = document.getElementById('auth-links');
-
-toggle.addEventListener('click', () => {
-    navMenu.classList.toggle('show');
-    authLinks.classList.toggle('show');
-});
 
 
