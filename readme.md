@@ -1,7 +1,3 @@
-Claro, Rafael! Aqui está o seu README adaptado com correções de ortografia e fluidez, mantendo fielmente as informações que você forneceu:
-
----
-
 # 💻 TechFix Manutenções
 
 **Desenvolvido por:** Rafael Vinicius dos Santos  
