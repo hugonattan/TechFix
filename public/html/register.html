@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="/public/css/register.css" />
+     <link rel="stylesheet" href="/public/css/login.css">
+     <link rel="shortcut icon" href="../img/green-logo.svg" type="image/x-icon" />
+     <title>Cadastro</title>
+</head>
+
+<body>
+     <!-- Cabeçalho -->
+     <header>
+          <div class="logo_login"><a href="/index.html">TechFix</a></div>
+     </header>
+
+     <!-- Conteúdo principal -->
+     <main class="main_register">
+          <form id="register-form" class="form_register">
+               <div class="form_intro">
+                    <h2>Olá, Bem-Vindo!</h2>
+                    <p>Já tem uma conta? <a href="login.html">Entrar</a></p>
+               </div>
+
+               <div class="form_fields">
+                    <input type="text" name="name" id="name" placeholder="Nome Completo" required />
+                    <input type="text" name="cpf" id="cpf" placeholder="CPF" required />
+                    <input type="tel" name="tel" id="tel" placeholder="Telefone" required />
+                    <input type="email" name="email" id="email" placeholder="E-mail" required />
+                    <input type="password" name="password" id="password" placeholder="Senha" required />
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirmar Senha"
+                         required />
+                    <input type="submit" class="btn_submit" value="CADASTRAR" />
+               </div>
+          </form>
+     </main>
+
+     <script src="../js/register.js"></script>
+</body>
+
+</html>
