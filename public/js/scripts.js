@@ -91,10 +91,11 @@ function enviarWhatsApp(event) {
 
     // Mapeia os valores do select para nomes legíveis
     const servicos = {
-        first: 'Selecione o Serviço',
-        second: 'Montagem Personalizada',
-        third: 'Instalação de Peças',
-        forty: 'Diagnóstico Técnico'
+        one: 'Selecione o Serviço',
+        two: 'Montagem Personalizada',
+        three: 'Instalação de Peças',
+        for: 'Diagnóstico Técnico',
+        five: 'Manutenção Preventiva'
     };
 
     const servicoFormatado = servicos[servico] || servico;
