@@ -1,64 +1,106 @@
-# 💻 TechFix Manutenções
+# TechFix 🚀
 
-**Desenvolvido por:** Rafael Vinicius dos Santos  
-**Professor orientador:** Luiz Felipe Cirqueira do Santos
+![TechFix Logo](https://img.shields.io/badge/TechFix-Platform-blue?style=for-the-badge&logo=appveyor)
+
+Welcome to **TechFix**, your go-to web platform for managing computer maintenance and upgrade services. We offer real-time tracking and transparent communication between clients and our technical team. Whether you need a quick fix or a major upgrade, TechFix has you covered.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
+
+## Features
+
+- **Real-time Tracking**: Monitor the status of your service requests in real-time.
+- **Transparent Communication**: Stay updated with clear communication between you and our tech team.
+- **User-Friendly Interface**: Navigate easily through our platform.
+- **Secure Registration and Login**: Protect your data with secure login and registration features.
+- **Support for Upgrades**: Get assistance for both maintenance and upgrades.
+
+## Technologies Used
+
+TechFix utilizes a variety of technologies to provide a seamless experience:
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express
+- **Database**: PostgreSQL
+
+## Getting Started
+
+To get started with TechFix, you need to clone the repository and install the required dependencies. Follow the steps below to set up your local environment.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/hugonattan/TechFix.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd TechFix
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Set up your PostgreSQL database. Ensure you have PostgreSQL installed and running. Create a database for TechFix and update your configuration files accordingly.
+
+5. Start the application:
+
+   ```bash
+   npm start
+   ```
+
+Now you can access the platform at `http://localhost:3000`.
+
+## Usage
+
+Once the application is running, you can access the following features:
+
+- **Registration**: Create an account to start using TechFix.
+- **Login**: Log in to your account to manage your services.
+- **Submit Requests**: Request maintenance or upgrades for your computer.
+- **Track Progress**: Check the status of your requests in real-time.
+
+## Contributing
+
+We welcome contributions to TechFix! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Create a pull request to the main repository.
+
+Please ensure your code follows the project's coding standards and includes appropriate tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any inquiries, please reach out to us at [support@techfix.com](mailto:support@techfix.com).
+
+## Releases
+
+You can find the latest releases of TechFix [here](https://github.com/hugonattan/TechFix/releases). Please download the appropriate version and follow the installation instructions.
+
+If you encounter any issues, check the "Releases" section for updates and fixes.
 
 ---
 
-## 🧠 Tema do Projeto
-
-**TechFix Manutenções** é um site voltado para a prestação de serviços técnicos de montagem, manutenção e upgrades de computadores, incluindo suporte técnico remoto. O objetivo é oferecer aos clientes uma plataforma digital moderna, transparente e eficiente para o acompanhamento dos serviços técnicos realizados em seus equipamentos.
-
----
-
-## ❗ Problema
-
-Muitos usuários — especialmente pequenas empresas e clientes domésticos — enfrentam dificuldades para acompanhar o processo de manutenção de seus equipamentos. Faltam clareza e transparência nos serviços ofertados, o que prejudica a confiança no atendimento, a comunicação com a equipe técnica e a experiência geral do usuário.
-
----
-
-## ✅ Solução
-
-O sistema TechFix visa resolver esse problema por meio de uma plataforma online que:
-
-- Permite ao cliente acompanhar em tempo real o status do serviço (ex: *Recebido*, *Em análise*, *Em manutenção*, *Finalizado*).
-- Exibe os detalhes do serviço executado.
-- Proporciona uma interface simples e intuitiva.
-- Melhora a comunicação entre cliente e equipe técnica.
-
----
-
-## 📋 Caso de Uso (resumo)
-
-- O **cliente** acessa o site, visualiza os serviços, entra em contato e entrega o equipamento. Após isso, pode acompanhar o andamento do seu serviço por meio do próprio cadastro, utilizando o mesmo CPF informado no momento da entrega do produto.
-- A **equipe técnica** cadastra o atendimento no sistema, atualiza o status do serviço e orienta o cliente a acessar a plataforma e se cadastrar com o mesmo CPF informado.
-
----
-
-## 📊 Diagrama de Classe
-
-O diagrama de classe pode incluir as seguintes entidades principais:
-
-- `Cliente`: nome, CPF, e-mail, senha.
-- `Serviço`: tipo, descrição, status, data de entrada, data prevista de finalização.
-- `Admin`: nome, login, permissões.
-- `HistóricoStatus`: data, status atual, observações.
-
-> *(Esse diagrama deve ser representado visualmente com uma ferramenta UML, como o [Lucidchart](https://lucidchart.com), [Draw.io](https://app.diagrams.net) ou [StarUML](https://staruml.io).)*
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- HTML5, CSS3 e JavaScript (Frontend)
-- Node.js (Backend)
-- PostgreSQL (Banco de Dados)
-- Git e GitHub (Controle de versão)
-
----
-
-## 📌 Objetivo Final
-
-Entregar uma plataforma funcional que facilite o contato, o acompanhamento e o entendimento dos serviços prestados ao cliente, promovendo uma experiência mais confiável e profissional na área de manutenção de computadores.
-
----
+Thank you for using TechFix! We look forward to helping you with your computer maintenance and upgrade needs.
